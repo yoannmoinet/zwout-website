@@ -98,6 +98,14 @@ body {
 }
 
 @media (max-width: 700px) {
+    .appstore {
+        margin-right: 0;
+    }
+
+    .playstore {
+        margin-left: 0;
+    }
+
     .title {
         font-size: 50px;
     }
