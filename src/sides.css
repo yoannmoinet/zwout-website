@@ -1,1 +1,70 @@
 @import './global.css';
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 100px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 60%;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    margin-right: 30px;
+}
+
+.subtitle {
+    margin: 0;
+}
+
+.stores {
+    display: flex;
+    /* border: solid 1px white; */
+    position: relative;
+    justify-content: space-between;
+    padding-top: 14.7367267%;
+    padding-top: 5.9%;
+    background: url(../assets/store-badges.svg) no-repeat;
+    width: 40%;
+}
+
+.store {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+@media (max-width: 950px) {
+    .header {
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .titles {
+        width: 100%;
+        align-items: space-around;
+    }
+
+    .stores {
+        margin-top: 50px;
+        /* padding-top: 7.346%; */
+    }
+}
