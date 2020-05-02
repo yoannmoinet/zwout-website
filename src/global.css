@@ -1,7 +1,8 @@
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 1em;
-    background-color: #002626;
+    background: #002626;
+    background: radial-gradient(circle, rgba(0, 38, 38, 1) 64%, rgba(0, 35, 35, 1) 72%, rgba(0, 34, 34, 1) 79%, rgba(0, 22, 22, 1) 100%);
 }
 
 .content {
