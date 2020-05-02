@@ -1,0 +1,80 @@
+@import './global.css';
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    max-width: 1000px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.left {
+    padding-right: 30px;
+    width: 60%;
+}
+
+.phones {
+    width: 100%;
+}
+
+.phones img {
+    width: calc(100% + 400px);
+    margin-left: -200px;
+    margin-right: -200px;
+    margin-bottom: -170px;
+}
+
+.right {
+    padding-left: 30px;
+    width: 40%;
+}
+
+.stores {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.appstore {
+    margin: 20px;
+}
+
+.playstore {
+    /* SVG has already a 10px margin */
+    margin: 10px;
+}

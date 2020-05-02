@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 1em;
+    background-color: #002626;
+}
+
+.content {
+    color: #fff;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cryptedmail:after {
+    content: attr(data-name) "@"attr(data-domain) "."attr(data-tld);
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+    color: #E55812;
+}
+
+h1 {
+    color: #E55812;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 60px;
+}
+
+strong,
+h2 {
+    color: #FEF57F;
+    font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
