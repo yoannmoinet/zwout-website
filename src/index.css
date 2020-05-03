@@ -78,6 +78,11 @@ body {
     height: 100%;
     top: 0;
     position: absolute;
+    cursor: pointer;
+}
+
+.playstore {
+    right: 0;
 }
 
 .footer {
