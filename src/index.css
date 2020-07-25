@@ -19,12 +19,14 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* outline: 1px solid pink; */
 }
 
 .left {
     padding-right: 30px;
     width: 40%;
     margin-bottom: -120px;
+    /* outline: 1px solid pink; */
 }
 
 .phones {
@@ -49,11 +51,13 @@ body {
 .right {
     padding-left: 30px;
     width: 60%;
+    /* outline: 1px solid pink; */
 }
 
 .title {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .subtitle {
